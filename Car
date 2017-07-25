@@ -1,0 +1,25 @@
+package com.fxj.test;
+
+/**
+ * Created by Administrator on 2017/7/24.
+ */
+public class Car {
+    String color;
+    int number;
+
+    void run()
+    {
+        System.out.println(color+" "+number);
+    }
+}
+
+class Car1
+{
+    public static void main(String[]args)
+    {
+        Car c = new Car();
+        c.color="red";
+        c.number=3;
+        c.run();
+    }
+}
